@@ -1,0 +1,154 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+	background-color: grey;
+  font-size: 12px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-style: normal
+  font-weight: bold;
+}
+
+.bottomnav {
+  position: absolute;
+  width: 375px;
+  height: 90px;
+  bottom: 0px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 375px;
+  height: 812px;
+  background: white;
+}
+
+.top {
+  position: relative;
+  margin: 0 auto;
+  width: 375px;
+  height: 163px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  background-image: url("../images/chicago.png");
+  image-resolution: snap;
+  box-sizing: border-box;
+}
+
+.route_name {
+  float: center;
+  position: relative;
+  width: 240px;
+  height: 38px;
+  margin-left: 20%;
+  padding-right: 5%;
+  top: 46px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(218, 218, 218, 0.25);
+}
+
+.routes {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 375px;
+  height: 565px;
+  overflow: auto;
+}
+
+hr {
+    position: absolute;
+    width: inherit;
+    height: 0px;
+    top: 722px;
+    border: 0.5px solid rgba(0, 0, 0, 0.29);
+}
+
+.location {
+    padding: 5%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.heart_icon {
+  position: absolute;
+  left: 74.13%;
+  right: 17.25%;
+  bottom: 38%;
+}
+
+.search_icon {
+  position: absolute;
+  left: 16%;
+  right: 76.82%;
+  bottom: 38%;
+}
+
+.home_icon {
+  position: absolute;
+  left: 46.13%;
+  right: 46.13%;
+  bottom: 38%;
+}
+
+/* text */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4F76DF;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #252525;
+  line-height: 1.5em;
+
+}
+
+h3 {
+  font-size: 1.1em;
+  font-color: black;
+  font-weight: bold;
+  line-height: 1.5em;
+  float: right;
+  position: relative;
+    bottom: 40px;
+    text-align: right;
+}
+
+h4 {
+  position: absolute;
+  width: 71px;
+  height: 15px;
+  left: 28px;
+  top: 88px;
+  font-family: Helvetica;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+h5 {
+  position: absolute;
+  width: 226px;
+  height: 28px;
+  left: 28px;
+  top: 113px;
+  font-family: Helvetica;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+}
