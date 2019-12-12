@@ -6,7 +6,7 @@ body {
   position: relative;
 	background-color: grey;
   font-size: 12px;
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
   font-style: normal
   font-weight: bold;
 }
@@ -14,7 +14,7 @@ body {
 .bottomnav {
   position: absolute;
   width: 375px;
-  height: 90px;
+  height: 83px;
   bottom: 0px;
 }
 
@@ -26,11 +26,19 @@ body {
   background: white;
 }
 
+.time {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 9.52%;
+  bottom: 4.76%;
+}
+
 .top {
   position: relative;
   margin: 0 auto;
   width: 375px;
-  height: 163px;
+  height: 141px;
   left: 0px;
   top: 0px;
   box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
@@ -58,41 +66,109 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   width: 375px;
-  height: 565px;
+  height: 593px;
   overflow: auto;
 }
 
+.route_number {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.destination {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.arrival {
+  position: relative;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.arrival_now {
+  position: relative;
+  color: red;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.time {
+  position: absolute;
+  left: 5.6%;
+  right: 80%;
+  top: 10%;
+}
+.signal_icon {
+  position: absolute;
+  left: 78.31%;
+  right: 17.16%;
+  top: 10%;
+}
+
+.wifi_icon {
+  position: absolute;
+  left: 84.18%;
+  right: 11.74%;
+  top: 10%;
+}
+
+.battery_icon {
+  position: absolute;
+  left: 89.6%;
+  right: 3.91%;
+  top: 10%;
+}
+
+.back_button {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 12px;
+  top: 54px;
+}
+
+
+.li {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 hr {
-    position: absolute;
-    width: inherit;
-    height: 0px;
-    top: 722px;
-    border: 0.5px solid rgba(0, 0, 0, 0.29);
+  position: absolute;
+  width: inherit;
+  height: 0px;
+  top: 729px;
+  border: 0.5px solid rgba(0, 0, 0, 0.29);
 }
 
 .location {
-    padding: 5%;
-    position: relative;
-    border-radius: 10px;
+  padding: 5%;
+  position: relative;
+  border-radius: 10px;
 }
 
 .heart_icon {
   position: absolute;
-  left: 74.13%;
-  right: 17.25%;
+  left: 79.2%;
+  right: 12.18%;
   bottom: 38%;
 }
 
 .search_icon {
   position: absolute;
-  left: 16%;
-  right: 76.82%;
+  left: 12%;
+  right: 80%;
   bottom: 38%;
 }
 
 .home_icon {
   position: absolute;
-  left: 46.13%;
+  left: 46.4%;
   right: 46.13%;
   bottom: 38%;
 }
@@ -102,53 +178,65 @@ hr {
 h1 {
   font-size: 30px;
   font-weight: bold;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
   color: #4F76DF;
 }
 
 h2 {
   font-size: 1.2em;
   font-weight: bold;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
   color: #252525;
   line-height: 1.5em;
 
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-color: black;
   font-weight: bold;
   line-height: 1.5em;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
   float: right;
   position: relative;
-    bottom: 40px;
-    text-align: right;
+  bottom: 40px;
+  text-align: right;
 }
 
 h4 {
   position: absolute;
-  width: 71px;
-  height: 15px;
-  left: 28px;
-  top: 88px;
-  font-family: Helvetica;
-  color: white;
+  width: 146px;
+  height: 14px;
+  left: 20px;
+  top: 70px;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  color: #dadada;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal
   font-size: 13px;
-  line-height: 15px;
+  line-height: 14px;
 }
 
 h5 {
   position: absolute;
-  width: 226px;
-  height: 28px;
-  left: 28px;
-  top: 113px;
-  font-family: Helvetica;
+  width: 327px;
+  height: 48px;
+  left: 20px;
+  top: 84px;
   color: white;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 25px;
+  line-height: 48px;
+}
 
+h6 {
+  position: absolute;
+  color: white;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
 }
