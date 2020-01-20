@@ -84,15 +84,15 @@ body {
 
 .arrival {
   position: relative;
+  padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
 }
 
 .arrival_now {
   position: relative;
   color: red;
+  padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
 }
 
 .time {
@@ -122,7 +122,7 @@ body {
   top: 10%;
 }
 
-.back_button {
+.back_icon {
   position: absolute;
   width: 27px;
   height: 27px;
@@ -205,16 +205,28 @@ h3 {
 
 h4 {
   position: absolute;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
   width: 146px;
   height: 14px;
-  left: 20px;
+  left: 37px;
+  top: 60px;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  color: white;
+}
+
+h4old {
+  position: absolute;
+  width: 146px;
+  height: 14px;
+  left: 27px;
   top: 70px;
   font-family: "SF Pro Text", Helvetica, sans-serif;
   color: #dadada;
   font-style: normal;
   font-weight: normal
-  font-size: 13px;
-  line-height: 14px;
+  font-size: 17px;
 }
 
 h5 {
